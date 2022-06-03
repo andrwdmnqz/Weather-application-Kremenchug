@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Forecast">
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/mainText"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/forecast_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainText"
+        android:layout_marginTop="25sp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/weather_forecast"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_forecast"
+        android:layout_below="@id/forecast_text"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40sp"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Practice Task</string>
+    <string name="mainText">Погода в Кременчуці</string>
+    <string name="start_button_text">Оновити</string>
+    <string name="current_weather_title">Поточна погода в місті:</string>
+    <string name="cityName">Кременчук</string>
+    <string name="current_weather_feels">Відчувається як:</string>
+    <string name="weather_forecast">Прогноз погоди на 5 днів</string>
+</resources>
